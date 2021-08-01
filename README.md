@@ -77,10 +77,6 @@ The configuration require a .env file in root dir with the following vars:
 
 This section describes the calls that accepts the API
 
-### `GET /redpack/rates/{shipment_id}`
-
-Endpoint for validate if a shipment have coverage
-
 ### `GET /employees`
 
 Retrieve all employees
