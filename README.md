@@ -77,6 +77,9 @@ The configuration require a .env file in root dir with the following vars:
 
 This section describes the calls that accepts the API
 
+#### Auth
+All endpoints require authentication of type Bearer token this means that all request to following endpoint require the header: `Authorization: Bearer {commerce_api_token}` 
+
 ### `GET /employees`
 
 Retrieve all employees
